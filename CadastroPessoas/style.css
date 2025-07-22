@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+table th, table td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.delete {
+    background-color: #dc3545;
+}
+
+.delete:hover {
+    background-color: #c82333;
+}
+
+.inline-form {
+    display: inline;
+}
+
+.filtro-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.filtro-form input, .filtro-form button, .filtro-form .clear {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.filtro-form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.filtro-form .clear {
+    background-color: #6c757d;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: inline-block;
+}
+
+.edit {
+    background-color: #ffc107;
+    padding: 6px 10px;
+    margin-right: 5px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
